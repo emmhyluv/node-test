@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/edit" method="post">
+        <input type="hidden" name="item" value= <%= info.item %> >
+        <input type="hidden" name="price" value= <%= info.price %> >
+        <input type="hidden" name="quantity" value= <%= info.quantity %> >
+        <button>edit</button>
+    </form>
+</body>
+</html>
